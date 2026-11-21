@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · Paymentory</title>
+  <meta name="description" content="What the Paymentory app collects, why, where it is stored and the choices you have.">
+  <meta name="theme-color" content="#070906">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="Paymentory home">
+        <img class="mark" src="assets/mark.png" alt="">
+        <img class="word" src="assets/wordmark.png" alt="Paymentory">
+      </a>
+      <nav class="links" aria-label="Main">
+        <a class="hide-sm" href="./#features">Features</a>
+        <a href="privacy.html" aria-current="page">Privacy</a>
+        <a href="delete-account.html">Delete account</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="doc">
+    <div class="wrap">
+      <span class="eyebrow">Legal</span>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Last updated: 21 November 2026 · Contact: <a href="mailto:fasnexis@gmail.com">fasnexis@gmail.com</a></p>
+
+      <p class="summary">Paymentory keeps your subscription data on your phone, uploads it only when you use backup, family sharing or the assistant, and never sells it or shows ads.</p>
+
+      <h2>In short</h2>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>What</th><th>Where it is kept</th><th>Who can see it</th></tr></thead>
+          <tbody>
+            <tr><td>Subscriptions, payments, budgets you enter</td><td>Your phone</td><td>Only you</td></tr>
+            <tr><td>The same data, if you turn on Backup &amp; sync (Pro)</td><td>Our database (Supabase, servers in Mumbai, India)</td><td>Only you</td></tr>
+            <tr><td>Subscriptions you share in a household</td><td>Our database</td><td>You and your household members (name, price, cycle, status only)</td></tr>
+            <tr><td>Emails you share or paste into Paymentory</td><td>Your phone only, deleted after you decide</td><td>Only you</td></tr>
+            <tr><td>Assistant questions (Pro)</td><td>Sent to Google Gemini to answer, not stored by us</td><td>Google, as our processor</td></tr>
+            <tr><td>Crash reports</td><td>Sentry</td><td>Us, without your name, email or subscriptions</td></tr>
+            <tr><td>Company logos shown in the app</td><td>Loaded from Logo.dev</td><td>Logo.dev sees the company’s web domain and your IP address, nothing else</td></tr>
+            <tr><td>Account email and sign-in</td><td>Our database (Supabase Auth)</td><td>Only you</td></tr>
+            <tr><td>Profile photo, if you add one</td><td>Our storage (Supabase Storage) and a copy on your phone</td><td>Only you</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Privacy Policy</h2>
+      <p>This policy explains what the Paymentory app (“Paymentory”, “we”) collects, why, where it is stored and the choices you have. It applies from Paymentory’s public release on Google Play.</p>
+
+      <h3>1. Using Paymentory without an account</h3>
+      <p>You can use Paymentory as a guest. Everything you enter stays in the app’s storage on your phone. We receive nothing except crash reports (section 7).</p>
+
+      <h3>2. Your account</h3>
+      <p>To create an account we collect your <strong>email address</strong> and a <strong>password</strong>. The password is stored only as a secure hash by our authentication provider, Supabase. If you sign in with Google, we receive your email address and basic profile from Google. We use your email only to sign you in, verify your account and send password-reset emails. You can also add your name in Profile (optional); it is stored with your account and used only to greet you and show on your profile. As a guest, a name you add stays on your phone, and moves to your account if you later sign in to one that has no name.</p>
+      <p><strong>Profile photo (optional).</strong> If you add a profile photo, the picture you choose from your gallery is cropped and shrunk on your phone, then stored in our storage (Supabase Storage) in a private folder that only your account can read. A copy is kept on your phone so it shows offline. We use it only to show your avatar in the app; family members and other users can’t see it. You can remove it any time (Profile → tap your photo → Remove photo), and it is deleted with your account.</p>
+
+      <h3>3. Subscription data you enter</h3>
+      <p>You may enter subscription names, prices, billing dates, categories, notes, tags, reminder preferences, a payment-method label (for example “Visa ending 1234”), payments you mark as paid or missed, budgets and savings goals. Paymentory never asks for, and refuses to store, full card numbers.</p>
+      <p>This data stays on your phone unless you use <strong>Backup &amp; sync</strong> (a Pro feature). Then it is stored in our database so you can restore it on another phone. Database rules allow only your account to read or change it.</p>
+
+      <h3>4. Email inbox</h3>
+      <p>You can share or paste a receipt or renewal email into Paymentory. It is read <strong>on your phone</strong> to suggest a subscription or price change. Email text is never uploaded, and it is deleted from the phone once you add, link or reject the suggestion. Paymentory does not connect to your email account.</p>
+
+      <h3>5. Family hub</h3>
+      <p>If you start or join a household, other members see the <strong>display name you choose</strong> (not your email) and your role. If you share a subscription, members see only its name, price, billing cycle, dates and status, and that you pay for it. Notes, payment labels and payment history are never shared. Leaving or being removed stops sharing immediately.</p>
+
+      <h3>6. Assistant (Pro)</h3>
+      <p>When you ask the assistant a question, our server sends the question and a <strong>summary</strong> of your subscriptions (names, prices, dates, categories, budgets) to Google’s Gemini API to generate the answer. Notes, payment labels and emails are not included. We record only that a question was asked (for the monthly limit), not its content. Google processes this data under its paid Gemini API terms, which do not allow using it to improve Google’s products. Answers can be wrong; check important figures in the app.</p>
+
+      <h3>7. Crash reports</h3>
+      <p>If the app crashes, a technical report is sent to Sentry, our crash-reporting provider: the error, the app version, device model and operating system. Before sending, the app removes email addresses, account and record ids, tokens and long numbers. Reports contain no subscription data. You can turn crash reports off in <strong>Settings → Privacy</strong>.</p>
+
+      <h3>8. Purchases</h3>
+      <p>Paymentory Pro will be sold through Google Play. Google handles payment; we receive only whether your Pro subscription is active, its product and its renewal date. We never see your card details.</p>
+
+      <h3>9. What we don’t do</h3>
+      <p>We don’t sell your data, show ads, use advertising identifiers, or track you across other apps or websites. Reminders and home-screen widgets are created on your phone.</p>
+
+      <h3>10. Where data is stored and who processes it</h3>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Provider</th><th>Purpose</th><th>Location</th></tr></thead>
+          <tbody>
+            <tr><td>Supabase</td><td>Accounts, profile photos, backup &amp; sync, family hub, server functions</td><td>Servers in Mumbai, India (AWS ap-south-1)</td></tr>
+            <tr><td>Google (Gemini API)</td><td>Assistant answers (Pro)</td><td>Google’s infrastructure</td></tr>
+            <tr><td>Sentry</td><td>Crash reports</td><td>Sentry’s infrastructure</td></tr>
+            <tr><td>Google Play</td><td>Pro purchases</td><td>Google’s infrastructure</td></tr>
+            <tr><td>Logo.dev</td><td>Company logos shown next to subscriptions</td><td>Logo.dev’s infrastructure</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>Company logos.</strong> To show a company’s logo, the app loads the image from Logo.dev using only that company’s web domain (for example netflix.com). Like any website, Logo.dev receives your phone’s IP address with the request. No account details, prices or other subscription data are sent.</p>
+      <p>Data is encrypted in transit (HTTPS). The sign-in session on your phone is kept in encrypted storage.</p>
+
+      <h3>11. How long we keep data</h3>
+      <p>We keep your account and backed-up data until you delete it or your account. Data on your phone is removed when you delete it or uninstall the app. Deleted data may remain for a short time in our hosting provider’s routine backups before being overwritten.</p>
+
+      <h3>12. Your choices and rights</h3>
+      <ul>
+        <li><strong>Delete your account:</strong> Settings → Account → Delete account. Your account and all data stored with it are deleted immediately, and data on the phone is erased. You can also email us to request deletion; see <a href="delete-account.html">Delete your account</a>.</li>
+        <li><strong>Export your data:</strong> Pro users can export CSV and PDF files (Profile → Export). Anyone can email us for a copy.</li>
+        <li><strong>Correct your data:</strong> edit it in the app.</li>
+        <li><strong>Turn features off:</strong> backup, crash reports, notifications and widget amounts can each be turned off in the app.</li>
+      </ul>
+      <p>Depending on where you live, you may have further rights (for example under GDPR). Contact us to use them.</p>
+
+      <h3>13. Children</h3>
+      <p>Paymentory is not intended for children under 13 and we do not knowingly collect their data. If you believe a child has given us data, contact us and we will delete it.</p>
+
+      <h3>14. Changes</h3>
+      <p>If we change this policy, we will update the date above and tell you in the app before significant changes apply.</p>
+
+      <h3>15. Contact</h3>
+      <p>Questions or requests: <a href="mailto:fasnexis@gmail.com"><strong>fasnexis@gmail.com</strong></a></p>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <span>© 2026 Paymentory</span>
+      <nav aria-label="Footer">
+        <a href="./">Home</a>
+        <a href="delete-account.html">Delete your account</a>
+        <a href="mailto:fasnexis@gmail.com">Contact: fasnexis@gmail.com</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

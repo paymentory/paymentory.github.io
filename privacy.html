@@ -30,7 +30,7 @@
     <div class="wrap">
       <span class="eyebrow">Legal</span>
       <h1>Privacy Policy</h1>
-      <p class="meta">Last updated: 21 November 2026 · Contact: <a href="mailto:fasnexis@gmail.com">fasnexis@gmail.com</a></p>
+      <p class="meta">Last updated: 27 November 2026 · Contact: <a href="mailto:fasnexis@gmail.com">fasnexis@gmail.com</a></p>
 
       <p class="summary">Paymentory keeps your subscription data on your phone, uploads it only when you use backup, family sharing or the assistant, and never sells it or shows ads.</p>
 
@@ -44,6 +44,7 @@
             <tr><td>Subscriptions you share in a household</td><td>Our database</td><td>You and your household members (name, price, cycle, status only)</td></tr>
             <tr><td>Emails you share or paste into Paymentory</td><td>Your phone only, deleted after you decide</td><td>Only you</td></tr>
             <tr><td>Assistant questions (Pro)</td><td>Sent to Google Gemini to answer, not stored by us</td><td>Google, as our processor</td></tr>
+            <tr><td>Reports you send about an assistant answer</td><td>Our database</td><td>Only us (to review the answer)</td></tr>
             <tr><td>Crash reports</td><td>Sentry</td><td>Us, without your name, email or subscriptions</td></tr>
             <tr><td>Company logos shown in the app</td><td>Loaded from Logo.dev</td><td>Logo.dev sees the company’s web domain and your IP address, nothing else</td></tr>
             <tr><td>Account email and sign-in</td><td>Our database (Supabase Auth)</td><td>Only you</td></tr>
@@ -74,6 +75,7 @@
 
       <h3>6. Assistant (Pro)</h3>
       <p>When you ask the assistant a question, our server sends the question and a <strong>summary</strong> of your subscriptions (names, prices, dates, categories, budgets) to Google’s Gemini API to generate the answer. Notes, payment labels and emails are not included. We record only that a question was asked (for the monthly limit), not its content. Google processes this data under its paid Gemini API terms, which do not allow using it to improve Google’s products. Answers can be wrong; check important figures in the app.</p>
+      <p><strong>Reporting an answer.</strong> You can report any assistant answer from inside the app (tap <strong>Report</strong> under it). The report contains the reason you choose, that answer, the question it answered and any note you add. It is stored in our database so we can review it and improve the assistant; only we can read it, and it is deleted with your account.</p>
 
       <h3>7. Crash reports</h3>
       <p>If the app crashes, a technical report is sent to Sentry, our crash-reporting provider: the error, the app version, device model and operating system. Before sending, the app removes email addresses, account and record ids, tokens and long numbers. Reports contain no subscription data. You can turn crash reports off in <strong>Settings → Privacy</strong>.</p>
